@@ -1,0 +1,8 @@
+elasticsearch:
+  host: https://elastic.example.com
+  port: 9200
+  username: elastic_user
+  password: elastic_user_password
+  defaultindex: procmon
+  mapping: ./procmon-mapping.json
+  bulksize: 1500
